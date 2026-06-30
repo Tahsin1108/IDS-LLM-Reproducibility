@@ -1,0 +1,8 @@
+Metric,Result
+Correct predicted label stated,96.7%
+No conflicting class label,100%
+Correct attack stage stated,95.7%
+Correct recommended action stated,100%
+Correct risk score stated,97.3%
+Only in-evidence features mentioned,84.0%
+No fabricated IP / host / CVE / malware,100%

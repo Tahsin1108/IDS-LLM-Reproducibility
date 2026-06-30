@@ -1,0 +1,7 @@
+True_Class,Mapped_Stage,Events,Percentage,Class_Accuracy
+BENIGN,Normal,235,78.3,100%
+DDoS,Impact / Availability Attack,25,8.3,100%
+PortScan,Reconnaissance,20,6.7,100%
+DoS Hulk,Impact / Availability Attack,18,6.0,100%
+DoS slowloris,Impact / Availability Attack,1,0.3,100%
+SSH-Patator,Credential Access,1,0.3,100%

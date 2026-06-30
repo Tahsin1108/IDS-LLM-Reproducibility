@@ -1,0 +1,8 @@
+Attack_Stage,Representative_Raw_Labels,Severity,Max_Risk_A_1_0,Zone_A_1_0,Action_A_1_0,Max_Risk_A_1_2,Zone_A_1_2,Action_A_1_2
+Normal,BENIGN,0.0,0.0,Monitor,Monitor,0.0,Monitor,Monitor
+Reconnaissance,PortScan,3.0,3.0,Alert,Alert SOC Analyst,3.5999999999999996,Alert,Alert SOC Analyst
+Credential Access,"FTP-Patator, SSH-Patator",6.0,6.0,Block,Block Source IP,7.199999999999999,Isolation,Isolate Host
+Web Exploitation,"Web Attack - Brute Force, Web Attack - XSS, Web Attack - Sql Injection, Web Attack - SQL Injection",6.5,6.5,Block,Block Source IP,7.8,Isolation,Isolate Host
+Impact / Availability Attack,"DDoS, DoS Hulk, DoS GoldenEye, DoS slowloris, DoS Slowhttptest, Heartbleed",7.0,7.0,Block,Block Source IP,8.4,Isolation,Isolate Host
+Command and Control,Bot,8.0,8.0,Isolation,Isolate Host,9.6,Critical,Isolate Host and Escalate Immediately
+Advanced Intrusion,Infiltration,8.5,8.5,Isolation,Isolate Host,10.0,Critical,Isolate Host and Escalate Immediately

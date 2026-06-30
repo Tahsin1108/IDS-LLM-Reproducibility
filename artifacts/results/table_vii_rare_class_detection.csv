@@ -1,0 +1,6 @@
+Named_Rare_Class,Test_Events,Correct,Mean_Confidence
+Heartbleed,0,,
+Infiltration,1,0.0,0.73
+Web Attack - SQL Injection,1,0.0,0.37
+Web Attack - XSS,39,12.0,0.65
+Web Attack - Brute Force,90,64.0,0.76

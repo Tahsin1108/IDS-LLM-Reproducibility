@@ -1,0 +1,11 @@
+Metric,Decision_Tree,Random_Forest
+Accuracy,0.9969,0.9952
+Macro-F1,0.8065,0.7423
+Mean maximum confidence,0.9998,0.9903
+Mean confidence on errors,0.9717,0.6829
+Errors made above 0.99 confidence,89.6%,8.4%
+Error-detection AUROC,0.7206,0.9789
+Error-detection AUPRC,0.1528,0.391
+Events reviewed at conf. < 0.70,0.01%,0.79%
+Errors captured at conf. < 0.70,2.4%,64.7%
+Retained accuracy at conf. >= 0.70,0.997,0.9983
