@@ -1,0 +1,50 @@
+# Risk-policy configuration for IDS-LLM framework
+# These values are author-defined, domain-informed heuristics.
+
+risk_formula: "risk_score = clip(stage_severity * confidence * asset_criticality, 0, 10)"
+
+asset_criticality:
+  experimental_default: 1.0
+  tiers:
+    low: 0.8
+    standard: 1.0
+    high: 1.2
+
+stage_severity:
+  Normal: 0.0
+  Reconnaissance: 3.0
+  Credential_Access: 6.0
+  Web_Exploitation: 6.5
+  Impact_Availability_Attack: 7.0
+  Command_and_Control: 8.0
+  Advanced_Intrusion: 8.5
+
+raw_label_to_stage:
+  BENIGN: Normal
+  PortScan: Reconnaissance
+  FTP-Patator: Credential_Access
+  SSH-Patator: Credential_Access
+  Web Attack - Brute Force: Web_Exploitation
+  Web Attack - XSS: Web_Exploitation
+  Web Attack - SQL Injection: Web_Exploitation
+  DDoS: Impact_Availability_Attack
+  DoS Hulk: Impact_Availability_Attack
+  DoS GoldenEye: Impact_Availability_Attack
+  DoS slowloris: Impact_Availability_Attack
+  DoS Slowhttptest: Impact_Availability_Attack
+  Heartbleed: Impact_Availability_Attack
+  Bot: Command_and_Control
+  Infiltration: Advanced_Intrusion
+
+thresholds:
+  monitor_max: 2.0
+  alert_max: 5.0
+  block_max: 7.0
+  isolation_max: 8.5
+
+recommended_actions:
+  monitor: Monitor
+  alert: Alert SOC Analyst
+  block: Block Source IP
+  isolation: Isolate Host
+  critical: Isolate Host and Escalate Immediately

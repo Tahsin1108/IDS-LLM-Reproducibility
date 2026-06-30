@@ -1,0 +1,50 @@
+# Main reproducibility configuration for IDS-LLM framework
+
+seed: 42
+
+dataset:
+  name: CIC-IDS2017
+  daily_sample_size: 50000
+  total_sample_size: 400000
+  train_size: 320000
+  test_size: 80000
+  test_ratio: 0.20
+  split_random_state: 42
+  stratified_split: true
+
+preprocessing:
+  remove_non_numeric_columns: true
+  replace_missing_values: true
+  replace_infinite_values: true
+  clip_lower_quantile: 0.001
+  clip_upper_quantile: 0.999
+
+random_forest:
+  n_estimators: 150
+  max_depth: 20
+  class_weight: balanced_subsample
+  random_state: 42
+  n_jobs: -1
+
+decision_tree:
+  criterion: gini
+  max_depth: 20
+  class_weight: balanced
+  random_state: 42
+
+explainability:
+  method: TreeSHAP
+  top_k_features: 5
+  explanation_scope: per_instance
+
+llm:
+  model_name: Qwen/Qwen2.5-1.5B-Instruct
+  precision: float16
+  do_sample: false
+  temperature: 0.0
+  seed: 42
+
+evaluation:
+  explanation_subset_size: 300
+  review_confidence_threshold: 0.70
+  calibration_bins: 15
