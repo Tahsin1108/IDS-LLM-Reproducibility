@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Raw datasets should not be committed
+data/raw/
+*.pcap
+*.pcapng
+
+# Secrets
+.env
+*.key
+token.txt
