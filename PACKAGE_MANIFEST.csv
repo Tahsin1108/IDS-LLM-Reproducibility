@@ -1,4 +1,7 @@
 File,Size_KB
+.gitignore,0.19
+LICENSE,1.04
+PACKAGE_MANIFEST.csv,3.23
 README.md,1.14
 REPRODUCIBILITY.md,2.33
 artifacts/evidence/README.md,1.02
