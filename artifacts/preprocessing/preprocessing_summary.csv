@@ -1,0 +1,7 @@
+Step,Description
+Dataset,CIC-IDS2017 CSV flow records were used.
+Sampling,"Each daily CSV was sampled to 50,000 rows where available, producing approximately 400,000 flows."
+Feature filtering,Non-numeric fields were removed before model training.
+Missing and infinite values,Missing and infinite values were replaced before model fitting.
+Outlier clipping,Numeric features were clipped at the 0.1st and 99.9th percentiles.
+Split,An 80/20 stratified train-test split was used with random_state=42.
