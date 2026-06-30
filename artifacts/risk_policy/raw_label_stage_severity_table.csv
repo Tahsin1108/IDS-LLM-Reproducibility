@@ -1,0 +1,17 @@
+Raw_Label,Attack_Stage,Severity,Max_Risk_A_1_0,Zone_A_1_0,Action_A_1_0,Max_Risk_A_1_2,Zone_A_1_2,Action_A_1_2
+BENIGN,Normal,0.0,0.0,Monitor,Monitor,0.0,Monitor,Monitor
+PortScan,Reconnaissance,3.0,3.0,Alert,Alert SOC Analyst,3.5999999999999996,Alert,Alert SOC Analyst
+FTP-Patator,Credential Access,6.0,6.0,Block,Block Source IP,7.199999999999999,Isolation,Isolate Host
+SSH-Patator,Credential Access,6.0,6.0,Block,Block Source IP,7.199999999999999,Isolation,Isolate Host
+Web Attack - Brute Force,Web Exploitation,6.5,6.5,Block,Block Source IP,7.8,Isolation,Isolate Host
+Web Attack - XSS,Web Exploitation,6.5,6.5,Block,Block Source IP,7.8,Isolation,Isolate Host
+Web Attack - Sql Injection,Web Exploitation,6.5,6.5,Block,Block Source IP,7.8,Isolation,Isolate Host
+Web Attack - SQL Injection,Web Exploitation,6.5,6.5,Block,Block Source IP,7.8,Isolation,Isolate Host
+DDoS,Impact / Availability Attack,7.0,7.0,Block,Block Source IP,8.4,Isolation,Isolate Host
+DoS Hulk,Impact / Availability Attack,7.0,7.0,Block,Block Source IP,8.4,Isolation,Isolate Host
+DoS GoldenEye,Impact / Availability Attack,7.0,7.0,Block,Block Source IP,8.4,Isolation,Isolate Host
+DoS slowloris,Impact / Availability Attack,7.0,7.0,Block,Block Source IP,8.4,Isolation,Isolate Host
+DoS Slowhttptest,Impact / Availability Attack,7.0,7.0,Block,Block Source IP,8.4,Isolation,Isolate Host
+Heartbleed,Impact / Availability Attack,7.0,7.0,Block,Block Source IP,8.4,Isolation,Isolate Host
+Bot,Command and Control,8.0,8.0,Isolation,Isolate Host,9.6,Critical,Isolate Host and Escalate Immediately
+Infiltration,Advanced Intrusion,8.5,8.5,Isolation,Isolate Host,10.0,Critical,Isolate Host and Escalate Immediately

@@ -1,0 +1,16 @@
+Asset_Criticality,Response_Zone,Event_Count,Event_Percentage
+0.8,Monitor,235,78.33333333333333
+0.8,Alert,21,7.000000000000001
+0.8,Block,44,14.666666666666666
+0.8,Isolation,0,0.0
+0.8,Critical,0,0.0
+1.0,Monitor,235,78.33333333333333
+1.0,Alert,20,6.666666666666667
+1.0,Block,45,15.0
+1.0,Isolation,0,0.0
+1.0,Critical,0,0.0
+1.2,Monitor,235,78.33333333333333
+1.2,Alert,20,6.666666666666667
+1.2,Block,0,0.0
+1.2,Isolation,45,15.0
+1.2,Critical,0,0.0

@@ -1,0 +1,4 @@
+Response_Zone,Recommended_Action,Event_Count,Event_Percentage
+Alert,Alert SOC Analyst,20,6.666666666666667
+Block,Block Source IP,45,15.0
+Monitor,Monitor,235,78.33333333333333

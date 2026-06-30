@@ -1,0 +1,301 @@
+predicted_label,attack_stage,confidence,severity,asset_criticality,risk_score_recomputed,policy_zone_recomputed,recommended_action_recomputed
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,0.9933333333333332,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,0.999991170970446,3.0,1.0,2.999973512911338,Alert,Alert SOC Analyst
+DoS slowloris,Impact / Availability Attack,0.9999999472077616,7.0,1.0,6.999999630454331,Block,Block Source IP
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,0.999987412658182,3.0,1.0,2.999962237974546,Alert,Alert SOC Analyst
+PortScan,Reconnaissance,0.99999179521005,3.0,1.0,2.99997538563015,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,0.9999886418757424,7.0,1.0,6.9999204931301975,Block,Block Source IP
+DoS Hulk,Impact / Availability Attack,0.9999886418757424,7.0,1.0,6.9999204931301975,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,0.998040434179984,7.0,1.0,6.986283039259888,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9004713100931973,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9954090702319268,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,0.930555455621212,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9999224179076112,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9947547812454784,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,0.9999831660338112,3.0,1.0,2.999949498101434,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+PortScan,Reconnaissance,0.9988716536493972,3.0,1.0,2.996614960948192,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.8173598460343183,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9884793281018452,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,0.9999968783417406,7.0,1.0,6.999978148392184,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9839995968636804,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+DoS Hulk,Impact / Availability Attack,0.9943739108000432,7.0,1.0,6.960617375600303,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+BENIGN,Normal,0.9533720964159648,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,0.9967136600587284,7.0,1.0,6.976995620411099,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9539522794537734,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9953557213662174,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9910321243972255,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,0.9980574540784976,7.0,1.0,6.986402178549483,Block,Block Source IP
+BENIGN,Normal,0.9675170924264614,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9987316225217148,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9996546145157974,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,0.9999136292549848,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9247573206865884,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+SSH-Patator,Credential Access,0.997154818026076,6.0,1.0,5.982928908156456,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,0.9999998531140653,7.0,1.0,6.9999989717984565,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,0.9967337982792912,7.0,1.0,6.977136587955038,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9991474637754733,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,0.9999886418757424,7.0,1.0,6.9999204931301975,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9950217053277766,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9412106288821764,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9936572634986838,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9950543286459872,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9615025522444026,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9411706416168892,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9552707229928896,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,0.9996473788288988,3.0,1.0,2.998942136486696,Alert,Alert SOC Analyst
+BENIGN,Normal,0.9933333333333332,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.976085345946386,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,0.9998431426720044,3.0,1.0,2.999529428016013,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9666666666666668,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9406197634183936,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,0.996809059123787,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9858859602920714,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9933333333333332,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,0.999040677633944,3.0,1.0,2.997122032901832,Alert,Alert SOC Analyst
+DoS Hulk,Impact / Availability Attack,0.9910734331351556,7.0,1.0,6.9375140319460895,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.999415530725751,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.8893450052771609,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9745816248393768,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9465017223190928,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DoS Hulk,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9247426847966352,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,0.5163431703028792,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9737464050365052,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.994451485574258,0.0,1.0,0.0,Monitor,Monitor
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+DDoS,Impact / Availability Attack,1.0,7.0,1.0,7.0,Block,Block Source IP
+BENIGN,Normal,0.8270523507163192,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+PortScan,Reconnaissance,1.0,3.0,1.0,3.0,Alert,Alert SOC Analyst
+BENIGN,Normal,0.9265740030167512,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9267342518979792,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.996809059123787,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,0.9754897095909444,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
+BENIGN,Normal,1.0,0.0,1.0,0.0,Monitor,Monitor
