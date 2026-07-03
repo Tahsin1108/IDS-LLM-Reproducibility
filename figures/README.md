@@ -17,4 +17,4 @@ Figure mapping:
 - Fig. 9: Decision Tree versus Random Forest confidence distribution
 - Fig. 10: Decision Tree versus Random Forest risk-coverage analysis
 
-Fig. 11 is represented in the manuscript text as a sample evidence bundle and generated report. Its source data are available in the evidence and report artifacts.
+The sample evidence bundle and generated report are provided in the manuscript as an illustration section rather than as a numbered figure. Its source data are available in the evidence and report artifacts.

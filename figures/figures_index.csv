@@ -1,8 +1,8 @@
 File,Size_KB
-README.md,0.83
+README.md,0.87
 fig_10_risk_coverage_dt_vs_rf.pdf,16.96
 fig_10_risk_coverage_dt_vs_rf.png,148.07
-fig_1_architecture.png,50.68
+fig_1_architecture.png,366.05
 fig_2_raw_confusion_matrix.pdf,25.7
 fig_2_raw_confusion_matrix.png,373.0
 fig_3_stage_confusion_matrix.pdf,20.57
@@ -19,3 +19,4 @@ fig_8_hallucination_analysis.pdf,12.8
 fig_8_hallucination_analysis.png,90.11
 fig_9_confidence_distribution_dt_vs_rf.pdf,16.14
 fig_9_confidence_distribution_dt_vs_rf.png,118.23
+figures_index.csv,0.84
