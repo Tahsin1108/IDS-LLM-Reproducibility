@@ -1,0 +1,39 @@
+{
+  "python_version": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "machine": "x86_64",
+  "processor": "x86_64",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.2.2",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.0",
+    "scikit-learn": "1.6.1",
+    "shap": "0.52.0",
+    "torch": "2.11.0+cu128",
+    "transformers": "5.13.1",
+    "accelerate": "1.14.0",
+    "huggingface-hub": "1.23.0",
+    "Pillow": "11.3.0"
+  },
+  "qwen_generation_environment": {
+    "model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "loading_method": "Direct AutoTokenizer.from_pretrained and AutoModelForCausalLM.from_pretrained",
+    "model_commit_hash": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "torch_version": "2.11.0+cu128",
+    "transformers_version": "4.57.6",
+    "accelerate_version": "1.12.0",
+    "python_version": "3.12.13",
+    "gpu": "Tesla T4",
+    "model_dtype": "float16",
+    "random_seed": 42,
+    "model_load_seconds": 60.932093702999964,
+    "generation": {
+      "do_sample": false,
+      "num_beams": 1,
+      "max_new_tokens": 300,
+      "repetition_penalty": 1.0,
+      "maximum_input_tokens": 4096
+    }
+  }
+}

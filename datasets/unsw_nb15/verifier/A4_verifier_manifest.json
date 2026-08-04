@@ -1,0 +1,11 @@
+{
+  "dataset": "UNSW-NB15",
+  "protocol": "Protocol A — Official",
+  "configuration": "A4_verified_full",
+  "source": "Raw A3 Qwen reports plus deterministic evidence-contract verifier",
+  "llm_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "reports": 300,
+  "ground_truth_exposed_to_llm": false,
+  "raw_a3_preserved": true,
+  "verifier_output_method": "Evidence-contract-bound deterministic rendering"
+}

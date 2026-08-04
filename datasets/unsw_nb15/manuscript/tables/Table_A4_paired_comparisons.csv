@@ -1,0 +1,25 @@
+Metric,Comparator,Comparator rate,A4 rate,Favourable A4 difference,Difference 95% CI,Holm-adjusted p-value,Significant after Holm
+Strict structural compliance,A0 Template,100.0%,100.0%,0.0%,"[0.0, 0.0]",1.000,False
+Strict structural compliance,A1 Unconstrained,100.0%,100.0%,0.0%,"[0.0, 0.0]",1.000,False
+Strict structural compliance,A2 No SHAP,0.0%,100.0%,100.0%,"[100.0, 100.0]",9.82e-90,True
+Strict structural compliance,A3 Full Evidence,0.0%,100.0%,100.0%,"[100.0, 100.0]",9.82e-90,True
+Prediction-contract compliance,A0 Template,0.0%,100.0%,100.0%,"[100.0, 100.0]",9.82e-90,True
+Prediction-contract compliance,A1 Unconstrained,4.3%,100.0%,95.7%,"[93.3, 97.7]",6.43e-86,True
+Prediction-contract compliance,A2 No SHAP,0.0%,100.0%,100.0%,"[100.0, 100.0]",9.82e-90,True
+Prediction-contract compliance,A3 Full Evidence,42.0%,100.0%,58.0%,"[52.3, 63.3]",5.85e-52,True
+Evidence-contract compliance,A0 Template,100.0%,100.0%,0.0%,"[0.0, 0.0]",1.000,False
+Evidence-contract compliance,A1 Unconstrained,0.0%,100.0%,100.0%,"[100.0, 100.0]",9.82e-90,True
+Evidence-contract compliance,A2 No SHAP,99.7%,100.0%,0.3%,"[0.0, 1.0]",1.000,False
+Evidence-contract compliance,A3 Full Evidence,19.3%,100.0%,80.7%,"[76.0, 85.0]",1.98e-72,True
+Unsupported-claim indicator,A0 Template,0.0%,0.0%,0.0%,"[0.0, 0.0]",1.000,False
+Unsupported-claim indicator,A1 Unconstrained,91.0%,0.0%,91.0%,"[87.7, 94.0]",1.32e-81,True
+Unsupported-claim indicator,A2 No SHAP,34.7%,0.0%,34.7%,"[29.3, 40.0]",5.92e-31,True
+Unsupported-claim indicator,A3 Full Evidence,2.0%,0.0%,2.0%,"[0.7, 3.7]",0.094,False
+Misclassification-reporting honesty,A0 Template,100.0%,100.0%,0.0%,"[0.0, 0.0]",1.000,False
+Misclassification-reporting honesty,A1 Unconstrained,100.0%,100.0%,0.0%,"[0.0, 0.0]",1.000,False
+Misclassification-reporting honesty,A2 No SHAP,100.0%,100.0%,0.0%,"[0.0, 0.0]",1.000,False
+Misclassification-reporting honesty,A3 Full Evidence,99.3%,100.0%,0.7%,"[0.0, 2.0]",1.000,False
+Token-limit occurrence,A0 Template,0.0%,0.0%,0.0%,"[0.0, 0.0]",1.000,False
+Token-limit occurrence,A1 Unconstrained,0.0%,0.0%,0.0%,"[0.0, 0.0]",1.000,False
+Token-limit occurrence,A2 No SHAP,0.0%,0.0%,0.0%,"[0.0, 0.0]",1.000,False
+Token-limit occurrence,A3 Full Evidence,7.0%,0.0%,7.0%,"[4.3, 10.0]",9.54e-06,True

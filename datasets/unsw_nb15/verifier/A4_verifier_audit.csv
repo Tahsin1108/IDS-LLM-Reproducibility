@@ -1,0 +1,301 @@
+event_id,verifier_fallback_triggered,raw_headings_exactly_once,raw_heading_order_correct,raw_structural_pass,raw_evidence_bullet_count,raw_five_evidence_bullets,raw_shap_mentions,raw_all_five_shap_mentions,raw_direction_mentions,raw_all_five_directions,raw_additional_title_present,raw_reached_token_limit,raw_missing_headings,a4_all_sections_present,a4_heading_order_correct,a4_heading_counts_correct,a4_evidence_bullet_count,a4_evidence_contract_passed,a4_quality_gate_passed
+UNSW-OFFICIAL-442,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-578,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-822,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-862,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-957,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-966,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-1294,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-1319,True,False,False,False,5,True,0,False,5,True,True,False,Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-1468,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-1587,True,True,True,True,5,True,0,False,0,False,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-1645,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-1779,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-1860,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-2180,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-2362,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-2491,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-2673,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-2751,True,False,False,False,5,True,0,False,0,False,True,False,Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-2840,True,False,False,False,5,True,5,True,10,True,True,True,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-2842,True,False,False,False,5,True,5,True,10,True,True,True,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-2854,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-2866,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-2899,True,True,True,True,5,True,0,False,3,False,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-2905,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-2942,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-3205,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-3580,True,True,True,True,5,True,5,True,5,True,True,True,,True,True,True,5,True,True
+UNSW-OFFICIAL-3606,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-3778,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-3979,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-4165,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-4195,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-4263,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-4309,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-4395,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-4466,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-4496,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-4719,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-4748,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-4896,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-5208,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-5249,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-5298,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-5355,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-5529,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-5562,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-5574,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-5722,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-6122,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-6144,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-6304,True,True,True,True,5,True,5,True,0,False,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-6482,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-6546,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-6585,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-6668,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-6765,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-7009,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-7010,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-7015,True,False,False,False,5,True,5,True,5,True,True,True,Recommended Action|Limitations,True,True,True,5,True,True
+UNSW-OFFICIAL-7340,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-7367,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-7394,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-7562,True,False,False,False,5,True,0,False,5,True,True,False,Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-7657,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-7727,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-7796,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-7890,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-8100,True,False,False,False,5,True,5,True,5,True,True,True,Limitations,True,True,True,5,True,True
+UNSW-OFFICIAL-8207,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-8497,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-8748,True,False,False,False,5,True,0,False,0,False,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-8793,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-8891,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-8897,True,False,False,False,5,True,0,False,0,False,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-8900,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-8909,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-9004,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-9757,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-9931,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-10015,True,False,False,False,5,True,0,False,5,True,True,False,Risk and Policy,True,True,True,5,True,True
+UNSW-OFFICIAL-10029,True,False,False,False,5,True,0,False,0,False,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-10238,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-10272,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-10450,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-10690,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-10762,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-10832,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-10870,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-11213,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-11343,True,False,False,False,5,True,5,True,5,True,True,True,Limitations,True,True,True,5,True,True
+UNSW-OFFICIAL-11434,True,True,True,True,5,True,0,False,0,False,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-11472,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-12960,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-13342,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-15213,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-15415,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-15513,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-15593,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-16778,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-17774,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-18095,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-19389,True,True,True,True,5,True,5,True,5,True,True,True,,True,True,True,5,True,True
+UNSW-OFFICIAL-20794,True,False,False,False,5,True,5,True,5,True,True,False,Risk and Policy|Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-20956,True,False,False,False,5,True,5,True,5,True,True,False,Risk and Policy|Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-22460,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-22782,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-25473,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-29954,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-33099,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-33218,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-34459,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-34555,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-35071,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-35319,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-36330,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-36644,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-40504,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-42048,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-42451,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-43110,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-43373,True,False,False,False,5,True,5,True,5,True,True,True,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-43394,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-43864,True,True,True,True,5,True,5,True,4,False,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-43895,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-43985,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-44001,True,True,True,True,5,True,5,True,5,True,True,True,,True,True,True,5,True,True
+UNSW-OFFICIAL-44015,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-44322,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-44403,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-44487,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-44627,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-44897,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-45256,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-45328,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-45697,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-45795,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-45818,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-45887,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-45973,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-46039,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-46255,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-46335,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-46444,True,True,True,True,5,True,0,False,0,False,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-46552,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-46586,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-46849,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-46967,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-47133,True,True,True,True,5,True,0,False,0,False,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-47310,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-47341,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-47369,True,False,False,False,5,True,5,True,10,True,True,True,Recommended Action|Human Review|Limitations,True,True,True,5,True,True
+UNSW-OFFICIAL-47404,True,False,False,False,5,True,5,True,10,True,True,True,Recommended Action|Human Review|Limitations,True,True,True,5,True,True
+UNSW-OFFICIAL-47409,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-47850,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-48119,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-48541,True,True,True,True,5,True,5,True,5,True,True,True,,True,True,True,5,True,True
+UNSW-OFFICIAL-48574,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-48600,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-48615,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-48701,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-48723,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-48748,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-48864,True,False,False,False,5,True,5,True,4,False,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-49168,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-49219,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-49522,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-49542,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-49575,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-49642,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-49715,True,False,False,False,5,True,0,False,5,True,True,False,Risk and Policy,True,True,True,5,True,True
+UNSW-OFFICIAL-49742,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-49861,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-49909,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-49945,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-49959,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-50052,True,False,False,False,5,True,0,False,5,True,True,False,Risk and Policy,True,True,True,5,True,True
+UNSW-OFFICIAL-50062,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-50087,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-50135,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-50360,True,True,True,True,5,True,5,True,0,False,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-50400,True,True,True,True,5,True,5,True,5,True,True,True,,True,True,True,5,True,True
+UNSW-OFFICIAL-50638,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-50680,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-50773,True,False,False,False,5,True,5,True,10,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-50850,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-50947,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-51028,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-51030,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-51121,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-51213,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-51307,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-51308,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-51486,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-51509,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-51611,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-51793,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-51828,True,False,False,False,5,True,0,False,5,True,True,False,Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-51945,True,False,False,False,5,True,5,True,5,True,True,False,Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-51980,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-52080,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-52108,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-52453,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-52808,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-52914,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-52923,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-52960,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-52966,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-53166,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-53212,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-53380,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-53416,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-53434,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-53474,True,False,False,False,5,True,5,True,5,True,True,False,Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-53482,True,False,False,False,5,True,5,True,5,True,True,False,Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-53516,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-53541,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-53550,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-53900,True,False,False,False,5,True,5,True,5,True,True,True,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-53984,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-54004,True,False,False,False,5,True,5,True,5,True,True,True,Recommended Action|Limitations,True,True,True,5,True,True
+UNSW-OFFICIAL-54105,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-54114,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-54426,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-54570,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-54748,True,True,True,True,5,True,5,True,5,True,True,True,,True,True,True,5,True,True
+UNSW-OFFICIAL-54790,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-54966,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-55189,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-55191,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-55269,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-55337,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-55418,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-55526,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action|Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-55890,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-55989,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-56041,True,True,True,True,5,True,5,True,5,True,True,True,,True,True,True,5,True,True
+UNSW-OFFICIAL-56043,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-56217,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-56979,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-57049,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-57299,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-57328,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-57391,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-57852,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-57874,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-57935,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-58114,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-58156,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-58200,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-58369,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-58657,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-58779,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-59012,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-59026,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-59066,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-59144,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-59165,True,False,False,False,5,True,5,True,5,True,True,False,Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-59292,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-59529,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-59623,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-59684,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-60081,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-60156,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-60355,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-61330,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-61487,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-61712,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-61925,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-62098,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-62255,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-62429,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-62501,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-62807,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-63399,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-63430,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-63708,True,False,False,False,5,True,5,True,5,True,True,True,Recommended Action|Limitations,True,True,True,5,True,True
+UNSW-OFFICIAL-63730,True,False,False,False,5,True,5,True,5,True,True,True,Recommended Action|Limitations,True,True,True,5,True,True
+UNSW-OFFICIAL-63779,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-63792,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-63892,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-64295,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-64607,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-64660,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-64690,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-64873,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-65224,True,False,False,False,5,True,0,False,5,True,True,False,Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-65889,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-66360,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-68026,True,False,False,False,5,True,5,True,5,True,True,True,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-70047,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-72656,True,False,False,False,5,True,5,True,5,True,True,True,Recommended Action|Limitations,True,True,True,5,True,True
+UNSW-OFFICIAL-74299,True,True,True,True,5,True,0,False,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-74463,True,False,False,False,5,True,0,False,5,True,True,False,Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-76452,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-76644,True,False,False,False,5,True,0,False,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-76646,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-77415,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True
+UNSW-OFFICIAL-80444,True,False,False,False,5,True,5,True,5,True,True,False,Recommended Action,True,True,True,5,True,True
+UNSW-OFFICIAL-80463,True,False,False,False,5,True,5,True,5,True,True,False,Human Review,True,True,True,5,True,True
+UNSW-OFFICIAL-81279,False,True,True,True,5,True,5,True,5,True,True,False,,True,True,True,5,True,True

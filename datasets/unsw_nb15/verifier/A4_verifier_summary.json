@@ -1,0 +1,18 @@
+{
+  "configuration_id": "A4_verified_full",
+  "source_configuration_id": "A3_constrained_full",
+  "expected_reports": 300,
+  "saved_reports": 300,
+  "unique_event_ids": 300,
+  "raw_a3_structural_passes": 160,
+  "raw_a3_five_evidence_bullet_passes": 300,
+  "raw_a3_all_shap_passes": 147,
+  "raw_a3_all_direction_passes": 287,
+  "raw_a3_token_limit_reports": 21,
+  "verifier_fallback_reports": 240,
+  "a4_quality_gate_passes": 300,
+  "a4_quality_gate_pass_rate": 1.0,
+  "mean_a4_report_words": 125.65333333333334,
+  "output_csv": "/content/drive/MyDrive/UNSW_NB15_Project/results/08_generated_reports/01_qwen_ablation/full_generation/A4_verified_full/A4_verified_full_reports.csv",
+  "audit_csv": "/content/drive/MyDrive/UNSW_NB15_Project/results/08_generated_reports/01_qwen_ablation/full_generation/A4_verified_full/A4_verifier_audit.csv"
+}

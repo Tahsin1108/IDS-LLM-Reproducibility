@@ -1,0 +1,7 @@
+metric,analysis_name,population,events,configurations,cochran_q,degrees_of_freedom,p_value,statistically_significant_0_05
+strict_structure_pass,Strict structural compliance,All events,300,5,1200.0,4,1.5928883283555285e-258,True
+prediction_contract_pass,Prediction-contract compliance,All events,300,5,917.1304347826087,4,3.235963731961486e-197,True
+evidence_contract_pass,Evidence-contract compliance,All events,300,5,1064.0760095011876,4,4.630080572148322e-229,True
+automatic_unsupported_claim_flag,Automatic unsupported-claim indicator,All events,300,5,837.7159940209267,4,5.19260906155221e-180,True
+misclassification_honesty_pass,Misclassification-reporting honesty,Misclassified events,150,5,4.0,4,0.40600584970983794,False
+reached_token_limit,Token-limit occurrence,All events,300,5,84.0,4,2.4722945736462377e-17,True

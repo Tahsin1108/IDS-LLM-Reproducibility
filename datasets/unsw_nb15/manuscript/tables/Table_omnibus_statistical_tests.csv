@@ -1,0 +1,10 @@
+Outcome,Test,Events,Statistic,df,p-value,Significant
+Strict structural compliance,Cochran's Q,300,1200.0,4,1.5928883283555285e-258,True
+Prediction-contract compliance,Cochran's Q,300,917.1304347826087,4,3.235963731961486e-197,True
+Evidence-contract compliance,Cochran's Q,300,1064.0760095011876,4,4.6300805721483215e-229,True
+Automatic unsupported-claim indicator,Cochran's Q,300,837.7159940209267,4,5.1926090615522105e-180,True
+Misclassification-reporting honesty,Cochran's Q,150,4.0,4,0.4060058497098379,False
+Token-limit occurrence,Cochran's Q,300,84.0,4,2.4722945736462377e-17,True
+Report length in words,Friedman,300,972.8921585019224,4,2.673490340778172e-209,True
+Generated output tokens,Friedman,300,478.17696160267127,2,1.46282408191188e-104,True
+Generation time in seconds,Friedman,300,479.92666666666673,2,6.098857332196305e-105,True

@@ -1,0 +1,31 @@
+metric,analysis_name,configuration_id,configuration_label,successes,total,rate,ci_95_lower,ci_95_upper,higher_is_better,population
+strict_structure_pass,Strict structural compliance,A0_deterministic_template,A0 Template,300,300,1.0,0.9873570287754538,0.9999999999999998,True,All events
+strict_structure_pass,Strict structural compliance,A1_unconstrained_full,A1 Unconstrained,300,300,1.0,0.9873570287754538,0.9999999999999998,True,All events
+strict_structure_pass,Strict structural compliance,A2_constrained_no_shap,A2 No SHAP,0,300,0.0,8.673617379884035e-19,0.012642971224546034,True,All events
+strict_structure_pass,Strict structural compliance,A3_constrained_full,A3 Full Evidence,0,300,0.0,8.673617379884035e-19,0.012642971224546034,True,All events
+strict_structure_pass,Strict structural compliance,A4_verified_full,A4 Verified,300,300,1.0,0.9873570287754538,0.9999999999999998,True,All events
+prediction_contract_pass,Prediction-contract compliance,A0_deterministic_template,A0 Template,0,300,0.0,8.673617379884035e-19,0.012642971224546034,True,All events
+prediction_contract_pass,Prediction-contract compliance,A1_unconstrained_full,A1 Unconstrained,13,300,0.043333333333333335,0.025496448084407246,0.07271746563401146,True,All events
+prediction_contract_pass,Prediction-contract compliance,A2_constrained_no_shap,A2 No SHAP,0,300,0.0,8.673617379884035e-19,0.012642971224546034,True,All events
+prediction_contract_pass,Prediction-contract compliance,A3_constrained_full,A3 Full Evidence,126,300,0.42,0.3655060253806384,0.4765168500152888,True,All events
+prediction_contract_pass,Prediction-contract compliance,A4_verified_full,A4 Verified,300,300,1.0,0.9873570287754538,0.9999999999999998,True,All events
+evidence_contract_pass,Evidence-contract compliance,A0_deterministic_template,A0 Template,300,300,1.0,0.9873570287754538,0.9999999999999998,True,All events
+evidence_contract_pass,Evidence-contract compliance,A1_unconstrained_full,A1 Unconstrained,0,300,0.0,8.673617379884035e-19,0.012642971224546034,True,All events
+evidence_contract_pass,Evidence-contract compliance,A2_constrained_no_shap,A2 No SHAP,299,300,0.9966666666666667,0.9813633063054688,0.9994113422781488,True,All events
+evidence_contract_pass,Evidence-contract compliance,A3_constrained_full,A3 Full Evidence,58,300,0.19333333333333333,0.15263726685545376,0.2417837554956011,True,All events
+evidence_contract_pass,Evidence-contract compliance,A4_verified_full,A4 Verified,300,300,1.0,0.9873570287754538,0.9999999999999998,True,All events
+automatic_unsupported_claim_flag,Automatic unsupported-claim indicator,A0_deterministic_template,A0 Template,0,300,0.0,8.673617379884035e-19,0.012642971224546034,False,All events
+automatic_unsupported_claim_flag,Automatic unsupported-claim indicator,A1_unconstrained_full,A1 Unconstrained,273,300,0.91,0.8722229892013517,0.9374097743945206,False,All events
+automatic_unsupported_claim_flag,Automatic unsupported-claim indicator,A2_constrained_no_shap,A2 No SHAP,104,300,0.3466666666666667,0.2950585411049252,0.40215197007060216,False,All events
+automatic_unsupported_claim_flag,Automatic unsupported-claim indicator,A3_constrained_full,A3 Full Evidence,6,300,0.02,0.009197631557703617,0.042939620817860576,False,All events
+automatic_unsupported_claim_flag,Automatic unsupported-claim indicator,A4_verified_full,A4 Verified,0,300,0.0,8.673617379884035e-19,0.012642971224546034,False,All events
+misclassification_honesty_pass,Misclassification-reporting honesty,A0_deterministic_template,A0 Template,150,150,1.0,0.9750297556319235,1.0,True,Misclassified events
+misclassification_honesty_pass,Misclassification-reporting honesty,A1_unconstrained_full,A1 Unconstrained,150,150,1.0,0.9750297556319235,1.0,True,Misclassified events
+misclassification_honesty_pass,Misclassification-reporting honesty,A2_constrained_no_shap,A2 No SHAP,150,150,1.0,0.9750297556319235,1.0,True,Misclassified events
+misclassification_honesty_pass,Misclassification-reporting honesty,A3_constrained_full,A3 Full Evidence,149,150,0.9933333333333333,0.9632071602251817,0.9988221986649826,True,Misclassified events
+misclassification_honesty_pass,Misclassification-reporting honesty,A4_verified_full,A4 Verified,150,150,1.0,0.9750297556319235,1.0,True,Misclassified events
+reached_token_limit,Token-limit occurrence,A0_deterministic_template,A0 Template,0,300,0.0,8.673617379884035e-19,0.012642971224546034,False,All events
+reached_token_limit,Token-limit occurrence,A1_unconstrained_full,A1 Unconstrained,0,300,0.0,8.673617379884035e-19,0.012642971224546034,False,All events
+reached_token_limit,Token-limit occurrence,A2_constrained_no_shap,A2 No SHAP,0,300,0.0,8.673617379884035e-19,0.012642971224546034,False,All events
+reached_token_limit,Token-limit occurrence,A3_constrained_full,A3 Full Evidence,21,300,0.07,0.046236944827176336,0.10463601042593323,False,All events
+reached_token_limit,Token-limit occurrence,A4_verified_full,A4 Verified,0,300,0.0,8.673617379884035e-19,0.012642971224546034,False,All events

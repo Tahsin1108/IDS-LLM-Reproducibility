@@ -1,0 +1,14 @@
+{
+  "configuration_id": "A1_unconstrained_full",
+  "expected_reports": 300,
+  "saved_reports": 300,
+  "successful_reports": 300,
+  "failed_reports": 0,
+  "reports_reaching_token_limit": 0,
+  "mean_input_tokens": 586.9933333333333,
+  "mean_output_tokens": 267.38666666666666,
+  "mean_generation_seconds": 9.927483368483323,
+  "generation_seconds_this_run": 2980.0094636950002,
+  "checkpoint_path": "/content/drive/MyDrive/UNSW_NB15_Project/results/08_generated_reports/01_qwen_ablation/full_generation/A1_unconstrained_full/raw_generation_checkpoint.jsonl",
+  "final_csv_path": "/content/drive/MyDrive/UNSW_NB15_Project/results/08_generated_reports/01_qwen_ablation/full_generation/A1_unconstrained_full/A1_unconstrained_full_raw_reports.csv"
+}

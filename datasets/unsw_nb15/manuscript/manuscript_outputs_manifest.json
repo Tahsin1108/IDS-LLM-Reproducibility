@@ -1,0 +1,28 @@
+{
+  "dataset": "UNSW-NB15",
+  "protocol": "Protocol A — Official",
+  "reporting_population": "Class-balanced 300-event subset",
+  "tables_generated": [
+    "Table_A0_A4_main_ablation_results.csv",
+    "Table_A0_A4_main_ablation_results_numeric.csv",
+    "Table_A4_paired_comparisons.csv",
+    "Table_efficiency_and_length_summary.csv",
+    "Table_omnibus_statistical_tests.csv",
+    "Table_per_class_A3_A4_comparison.csv"
+  ],
+  "figures_generated": [
+    "Figure_A0_A4_compliance_1200dpi.png",
+    "Figure_A0_A4_report_length_1200dpi.png",
+    "Figure_Qwen_generation_time_1200dpi.png",
+    "Figure_per_class_A3_A4_evidence_1200dpi.png"
+  ],
+  "figure_dpi": 1200,
+  "vector_figures_saved": true,
+  "results_text": "/content/drive/MyDrive/UNSW_NB15_Project/results/10_manuscript_outputs/results_text/UNSW_NB15_A0_A4_results_paragraph.txt",
+  "captions": "/content/drive/MyDrive/UNSW_NB15_Project/results/10_manuscript_outputs/results_text/figure_captions.txt",
+  "notes": [
+    "A2 evidence-contract compliance verifies the required no-SHAP condition.",
+    "Automatic unsupported-claim results are rule-based indicators, not human ratings.",
+    "A4 generation time was not compared with Qwen inference because A4 is deterministic contract rendering."
+  ]
+}

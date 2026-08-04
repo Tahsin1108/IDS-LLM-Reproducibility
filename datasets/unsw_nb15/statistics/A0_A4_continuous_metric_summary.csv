@@ -1,0 +1,12 @@
+metric,analysis_name,population,configuration_id,configuration_label,events,mean,standard_deviation,median,interquartile_range,minimum,maximum
+report_words,Report length in words,All 300 events,A0_deterministic_template,A0 Template,300,111.36333333333333,2.621876492775123,112.0,5.0,106.0,115.0
+report_words,Report length in words,All 300 events,A1_unconstrained_full,A1 Unconstrained,300,179.98666666666668,20.35191613887913,178.0,24.0,133.0,265.0
+report_words,Report length in words,All 300 events,A2_constrained_no_shap,A2 No SHAP,300,107.69,21.49762139755253,103.0,29.0,70.0,171.0
+report_words,Report length in words,All 300 events,A3_constrained_full,A3 Full Evidence,300,158.09,25.324421436041415,160.0,40.0,114.0,249.0
+report_words,Report length in words,All 300 events,A4_verified_full,A4 Verified,300,125.65333333333334,2.4630694792787997,126.0,3.25,121.0,129.0
+output_tokens,Generated output tokens,LLM configurations only,A1_unconstrained_full,A1 Unconstrained,300,267.38666666666666,29.74704654498303,262.0,35.25,207.0,400.0
+output_tokens,Generated output tokens,LLM configurations only,A2_constrained_no_shap,A2 No SHAP,300,155.09,27.09061778377072,149.0,31.25,111.0,232.0
+output_tokens,Generated output tokens,LLM configurations only,A3_constrained_full,A3 Full Evidence,300,317.67333333333335,63.09869072699071,321.0,114.25,203.0,420.0
+generation_seconds,Generation time in seconds,LLM configurations only,A1_unconstrained_full,A1 Unconstrained,300,9.927483368483323,1.1528500341291656,9.794247080999867,1.3595581065003444,7.556198313000095,15.182301714000005
+generation_seconds,Generation time in seconds,LLM configurations only,A2_constrained_no_shap,A2 No SHAP,300,5.721376012913334,1.0516980675350158,5.641511659999651,1.4087723467500837,3.8078081609992296,8.760157063000406
+generation_seconds,Generation time in seconds,LLM configurations only,A3_constrained_full,A3 Full Evidence,300,11.706032165463382,2.310852810383492,11.63828622749952,4.051047873250582,7.634645059999457,15.904810653999448
