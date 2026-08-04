@@ -1,0 +1,14 @@
+{
+  "configuration_id": "A2_constrained_no_shap",
+  "expected_reports": 300,
+  "saved_reports": 300,
+  "successful_reports": 300,
+  "failed_reports": 0,
+  "reports_reaching_token_limit": 0,
+  "mean_input_tokens": 346.6066666666667,
+  "mean_output_tokens": 155.09,
+  "mean_generation_seconds": 5.721376012913334,
+  "generation_seconds_this_run": 1717.846841386,
+  "checkpoint_path": "/content/drive/MyDrive/UNSW_NB15_Project/results/08_generated_reports/01_qwen_ablation/full_generation/A2_constrained_no_shap/raw_generation_checkpoint.jsonl",
+  "final_csv_path": "/content/drive/MyDrive/UNSW_NB15_Project/results/08_generated_reports/01_qwen_ablation/full_generation/A2_constrained_no_shap/A2_constrained_no_shap_raw_reports.csv"
+}
