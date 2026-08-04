@@ -1,0 +1,38 @@
+{
+  "dataset": "UNSW-NB15",
+  "protocol": "Protocol A — Official",
+  "population": "Class-balanced 300-event reporting subset",
+  "paired_design": true,
+  "events": 300,
+  "configurations": [
+    "A0_deterministic_template",
+    "A1_unconstrained_full",
+    "A2_constrained_no_shap",
+    "A3_constrained_full",
+    "A4_verified_full"
+  ],
+  "binary_tests": {
+    "omnibus": "Cochran's Q test",
+    "pairwise": "Exact two-sided McNemar test",
+    "multiple_comparison_correction": "Holm correction within each metric",
+    "confidence_intervals": "Wilson 95% confidence interval for rates",
+    "difference_confidence_intervals": "Paired percentile bootstrap with 10,000 replicates"
+  },
+  "continuous_tests": {
+    "omnibus": "Friedman test",
+    "pairwise": "Two-sided Wilcoxon signed-rank test",
+    "multiple_comparison_correction": "Holm correction within each metric"
+  },
+  "misclassification_honesty_population": "150 misclassified events",
+  "random_seed": 42,
+  "bootstrap_replicates": 10000,
+  "significance_threshold": 0.05,
+  "output_files": {
+    "proportion_confidence_intervals": "/content/drive/MyDrive/UNSW_NB15_Project/results/09_report_evaluation/statistics/A0_A4_metric_wilson_ci.csv",
+    "cochran_q_tests": "/content/drive/MyDrive/UNSW_NB15_Project/results/09_report_evaluation/statistics/A0_A4_cochran_q_tests.csv",
+    "pairwise_mcnemar": "/content/drive/MyDrive/UNSW_NB15_Project/results/09_report_evaluation/statistics/A0_A4_pairwise_mcnemar_holm.csv",
+    "continuous_summary": "/content/drive/MyDrive/UNSW_NB15_Project/results/09_report_evaluation/statistics/A0_A4_continuous_metric_summary.csv",
+    "friedman_tests": "/content/drive/MyDrive/UNSW_NB15_Project/results/09_report_evaluation/statistics/A0_A4_friedman_tests.csv",
+    "pairwise_wilcoxon": "/content/drive/MyDrive/UNSW_NB15_Project/results/09_report_evaluation/statistics/A0_A4_pairwise_wilcoxon_holm.csv"
+  }
+}

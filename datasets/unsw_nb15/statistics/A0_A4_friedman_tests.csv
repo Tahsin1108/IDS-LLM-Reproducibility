@@ -1,0 +1,4 @@
+metric,analysis_name,population,events,configurations,friedman_chi_square,degrees_of_freedom,p_value,statistically_significant_0_05
+report_words,Report length in words,All 300 events,300,5,972.8921585019225,4,2.6734903407781716e-209,True
+output_tokens,Generated output tokens,LLM configurations only,300,3,478.17696160267127,2,1.46282408191188e-104,True
+generation_seconds,Generation time in seconds,LLM configurations only,300,3,479.92666666666673,2,6.098857332196305e-105,True

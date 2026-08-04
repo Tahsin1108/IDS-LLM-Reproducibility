@@ -1,0 +1,6 @@
+configuration_id,reports,correct_reports,incorrect_reports,core_structure_pass_rate,strict_structure_pass_rate,prediction_contract_pass_rate,evidence_contract_pass_rate,mean_feature_name_coverage,mean_observed_value_coverage,mean_shap_value_coverage,mean_direction_coverage,automatic_unsupported_claim_rate,misclassification_honesty_rate,unexpected_true_label_assertion_rate_on_errors,token_limit_rate,mean_report_words,mean_output_tokens,mean_generation_seconds
+A0_deterministic_template,300.0,150.0,150.0,1.0,1.0,0.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,111.36333333333333,,
+A1_unconstrained_full,300.0,150.0,150.0,1.0,1.0,0.043333333333333335,0.0,0.916,0.8313333333333333,0.0013333333333333335,0.07333333333333333,0.91,1.0,0.0,0.0,179.98666666666668,267.38666666666666,9.927483368483323
+A2_constrained_no_shap,300.0,150.0,150.0,0.38666666666666666,0.0,0.0,0.9966666666666667,,,,,0.3466666666666667,1.0,0.0,0.0,107.69,155.09,5.721376012913334
+A3_constrained_full,300.0,150.0,150.0,0.5333333333333333,0.0,0.42,0.19333333333333333,0.9966666666666667,0.9660000000000002,0.21066666666666667,0.9333333333333333,0.02,0.9933333333333333,0.0,0.07,158.09,317.67333333333335,11.706032165463382
+A4_verified_full,300.0,150.0,150.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,125.65333333333334,,

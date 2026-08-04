@@ -1,0 +1,27 @@
+{
+  "dataset": "UNSW-NB15",
+  "protocol": "Protocol A — Official",
+  "events": 300,
+  "configurations": 5,
+  "total_reports": 1500,
+  "evaluator_version": "2.0",
+  "corrections": [
+    "Numerical values followed by punctuation are now matched correctly.",
+    "Fixed-decimal trailing zeros are retained through tolerance-based matching.",
+    "Negated ground-truth limitations are no longer treated as overclaims.",
+    "Readable feature evidence is accepted as an evidence-faithful representation.",
+    "Feature values, SHAP values and directions are matched within the same evidence line."
+  ],
+  "sanity_checks": {
+    "A4_strict_structure_rate": 1.0,
+    "A4_prediction_contract_rate": 1.0,
+    "A4_evidence_contract_rate": 1.0,
+    "A4_unsupported_claim_rate": 0.0
+  },
+  "output_files": {
+    "report_level": "/content/drive/MyDrive/UNSW_NB15_Project/results/09_report_evaluation/A0_A4_report_level_metrics_v2.csv",
+    "configuration_summary": "/content/drive/MyDrive/UNSW_NB15_Project/results/09_report_evaluation/A0_A4_configuration_summary_v2.csv",
+    "correctness_summary": "/content/drive/MyDrive/UNSW_NB15_Project/results/09_report_evaluation/A0_A4_correctness_summary_v2.csv",
+    "class_summary": "/content/drive/MyDrive/UNSW_NB15_Project/results/09_report_evaluation/A0_A4_class_summary_v2.csv"
+  }
+}
