@@ -1,0 +1,17 @@
+Figure 1. Structural, prediction-contract, evidence-contract,
+unsupported-claim-free, and misclassification-reporting-honesty
+rates across the A0–A4 reporting configurations. The evidence
+contract is configuration-specific for A2 and verifies the required
+absence of local SHAP evidence.
+
+Figure 2. Mean report length across A0–A4. Error bars represent one
+standard deviation across the 300 paired events.
+
+Figure 3. Mean deterministic Qwen generation time per report for
+A1–A3 on the same 300 events. Error bars represent one standard
+deviation. A0 and A4 were deterministic rendering stages and were
+not included in the Qwen inference-time comparison.
+
+Figure 4. Per-class evidence-contract compliance for raw
+full-evidence generation (A3) and verifier-rendered reports (A4).
+Each class contains 30 reporting events.

@@ -1,0 +1,6 @@
+configuration_label,reports,strict_structure_pass_rate,prediction_contract_pass_rate,evidence_contract_pass_rate,automatic_unsupported_claim_rate,misclassification_honesty_rate,token_limit_rate,mean_report_words,mean_output_tokens,mean_generation_seconds
+A0 Template,300.0,1.0,0.0,1.0,0.0,1.0,0.0,111.36333333333332,,
+A1 Unconstrained,300.0,1.0,0.0433333333333333,0.0,0.91,1.0,0.0,179.98666666666668,267.38666666666666,9.927483368483324
+A2 No SHAP,300.0,0.0,0.0,0.9966666666666668,0.3466666666666667,1.0,0.0,107.69,155.09,5.721376012913334
+A3 Full Evidence,300.0,0.0,0.42,0.1933333333333333,0.02,0.9933333333333332,0.07,158.09,317.67333333333335,11.706032165463382
+A4 Verified,300.0,1.0,1.0,1.0,0.0,1.0,0.0,125.65333333333334,,

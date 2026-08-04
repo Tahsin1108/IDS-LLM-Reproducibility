@@ -19,3 +19,18 @@ data/raw/
 .env
 *.key
 token.txt
+
+# Raw UNSW-NB15 data
+datasets/unsw_nb15/data/raw/
+**/UNSW_NB15_training-set.csv
+**/UNSW_NB15_testing-set.csv
+**/UNSW_NB15_features.csv
+
+# Model weights and Hugging Face caches
+*.safetensors
+*.bin
+**/.cache/huggingface/
+huggingface_cache/
+
+# Reproducibility archives
+*.tar.gz

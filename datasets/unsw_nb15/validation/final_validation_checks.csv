@@ -1,0 +1,84 @@
+check_id,description,severity,passed,observed,expected
+FILE_llm_bundle,Mandatory file exists: llm_bundle,mandatory,True,True,True
+FILE_evaluation_bundle,Mandatory file exists: evaluation_bundle,mandatory,True,True,True
+FILE_A0_reports,Mandatory file exists: A0_reports,mandatory,True,True,True
+FILE_A1_reports,Mandatory file exists: A1_reports,mandatory,True,True,True
+FILE_A2_reports,Mandatory file exists: A2_reports,mandatory,True,True,True
+FILE_A3_reports,Mandatory file exists: A3_reports,mandatory,True,True,True
+FILE_A4_reports,Mandatory file exists: A4_reports,mandatory,True,True,True
+FILE_A4_audit,Mandatory file exists: A4_audit,mandatory,True,True,True
+FILE_A4_summary,Mandatory file exists: A4_summary,mandatory,True,True,True
+FILE_prompt_bank,Mandatory file exists: prompt_bank,mandatory,True,True,True
+FILE_report_level_metrics,Mandatory file exists: report_level_metrics,mandatory,True,True,True
+FILE_configuration_summary,Mandatory file exists: configuration_summary,mandatory,True,True,True
+FILE_correctness_summary,Mandatory file exists: correctness_summary,mandatory,True,True,True
+FILE_class_summary,Mandatory file exists: class_summary,mandatory,True,True,True
+FILE_evaluation_manifest,Mandatory file exists: evaluation_manifest,mandatory,True,True,True
+FILE_statistics_manifest,Mandatory file exists: statistics_manifest,mandatory,True,True,True
+FILE_manuscript_manifest,Mandatory file exists: manuscript_manifest,mandatory,True,True,True
+BUNDLE_LLM_COUNT,LLM-facing bundle count,mandatory,True,300,300
+BUNDLE_EVALUATION_COUNT,Evaluation-only bundle count,mandatory,True,300,300
+BUNDLE_EVENT_ALIGNMENT,LLM-facing and evaluation event IDs align,mandatory,True,300,300
+BUNDLE_NO_GROUND_TRUTH,LLM-facing bundles contain no evaluation-only ground-truth keys,mandatory,True,0,0
+BUNDLE_FIVE_FEATURES,Every LLM bundle has exactly five features,mandatory,True,300,300
+A0_deterministic_template_ROWS,A0_deterministic_template report count,mandatory,True,300,300
+A0_deterministic_template_UNIQUE_IDS,A0_deterministic_template unique event count,mandatory,True,300,300
+A0_deterministic_template_EVENT_ALIGNMENT,A0_deterministic_template event IDs align with evidence bundles,mandatory,True,300,300
+A0_deterministic_template_NONEMPTY,A0_deterministic_template reports are nonempty,mandatory,True,0,0
+A1_unconstrained_full_ROWS,A1_unconstrained_full report count,mandatory,True,300,300
+A1_unconstrained_full_UNIQUE_IDS,A1_unconstrained_full unique event count,mandatory,True,300,300
+A1_unconstrained_full_EVENT_ALIGNMENT,A1_unconstrained_full event IDs align with evidence bundles,mandatory,True,300,300
+A1_unconstrained_full_NONEMPTY,A1_unconstrained_full reports are nonempty,mandatory,True,0,0
+A2_constrained_no_shap_ROWS,A2_constrained_no_shap report count,mandatory,True,300,300
+A2_constrained_no_shap_UNIQUE_IDS,A2_constrained_no_shap unique event count,mandatory,True,300,300
+A2_constrained_no_shap_EVENT_ALIGNMENT,A2_constrained_no_shap event IDs align with evidence bundles,mandatory,True,300,300
+A2_constrained_no_shap_NONEMPTY,A2_constrained_no_shap reports are nonempty,mandatory,True,0,0
+A3_constrained_full_ROWS,A3_constrained_full report count,mandatory,True,300,300
+A3_constrained_full_UNIQUE_IDS,A3_constrained_full unique event count,mandatory,True,300,300
+A3_constrained_full_EVENT_ALIGNMENT,A3_constrained_full event IDs align with evidence bundles,mandatory,True,300,300
+A3_constrained_full_NONEMPTY,A3_constrained_full reports are nonempty,mandatory,True,0,0
+A4_verified_full_ROWS,A4_verified_full report count,mandatory,True,300,300
+A4_verified_full_UNIQUE_IDS,A4_verified_full unique event count,mandatory,True,300,300
+A4_verified_full_EVENT_ALIGNMENT,A4_verified_full event IDs align with evidence bundles,mandatory,True,300,300
+A4_verified_full_NONEMPTY,A4_verified_full reports are nonempty,mandatory,True,0,0
+A1_unconstrained_full_SUCCESS,A1_unconstrained_full successful generations,mandatory,True,300,300
+A2_constrained_no_shap_SUCCESS,A2_constrained_no_shap successful generations,mandatory,True,300,300
+A3_constrained_full_SUCCESS,A3_constrained_full successful generations,mandatory,True,300,300
+A3_TOKEN_LIMIT_COUNT,A3 token-limit count matches recorded result,mandatory,True,21,21
+A4_AUDIT_ROWS,A4 verifier audit count,mandatory,True,300,300
+A4_QUALITY_GATES,A4 reports passing all verifier quality gates,mandatory,True,300,300
+A4_SUMMARY_GATE_RATE,A4 summary quality-gate rate,mandatory,True,1.0,1.0
+A4_SUMMARY_UNIQUE_IDS,A4 summary unique event count,mandatory,True,300,300
+EVALUATION_REPORT_ROWS,Unified report-level evaluation rows,mandatory,True,1500,1500
+EVALUATION_CONFIG_COUNTS,Every evaluated configuration has 300 reports,mandatory,True,"{'A0_deterministic_template': 300, 'A1_unconstrained_full': 300, 'A2_constrained_no_shap': 300, 'A3_constrained_full': 300, 'A4_verified_full': 300}",300 reports per configuration
+CONFIGURATION_SUMMARY_ROWS,Configuration summary has five rows,mandatory,True,5,5
+CORRECTNESS_SUMMARY_ROWS,Correctness summary has ten rows,mandatory,True,10,10
+CLASS_SUMMARY_ROWS,Per-class summary has fifty rows,mandatory,True,50,50
+A4_EVAL_STRUCTURE,A4 strict_structure_pass_rate equals 100%,mandatory,True,1.0,1.0
+A4_EVAL_PREDICTION,A4 prediction_contract_pass_rate equals 100%,mandatory,True,1.0,1.0
+A4_EVAL_EVIDENCE,A4 evidence_contract_pass_rate equals 100%,mandatory,True,1.0,1.0
+A4_EVAL_UNSUPPORTED,A4 automatic unsupported-claim rate equals zero,mandatory,True,0.0,0.0
+STATISTICS_FILE_SET,All mandatory statistical-analysis files exist,mandatory,True,"['A0_A4_cochran_q_tests.csv', 'A0_A4_continuous_metric_summary.csv', 'A0_A4_friedman_tests.csv', 'A0_A4_metric_wilson_ci.csv', 'A0_A4_pairwise_mcnemar_holm.csv', 'A0_A4_pairwise_wilcoxon_holm.csv', 'A0_A4_statistics_manifest.json']","['A0_A4_cochran_q_tests.csv', 'A0_A4_continuous_metric_summary.csv', 'A0_A4_friedman_tests.csv', 'A0_A4_metric_wilson_ci.csv', 'A0_A4_pairwise_mcnemar_holm.csv', 'A0_A4_pairwise_wilcoxon_holm.csv', 'A0_A4_statistics_manifest.json']"
+MANUSCRIPT_TABLE_SET,All six manuscript tables exist,mandatory,True,"['Table_A0_A4_main_ablation_results.csv', 'Table_A0_A4_main_ablation_results_numeric.csv', 'Table_A4_paired_comparisons.csv', 'Table_efficiency_and_length_summary.csv', 'Table_omnibus_statistical_tests.csv', 'Table_per_class_A3_A4_comparison.csv']","['Table_A0_A4_main_ablation_results.csv', 'Table_A0_A4_main_ablation_results_numeric.csv', 'Table_A4_paired_comparisons.csv', 'Table_efficiency_and_length_summary.csv', 'Table_omnibus_statistical_tests.csv', 'Table_per_class_A3_A4_comparison.csv']"
+PAIRED_TABLE_NEGATIVE_ZERO,Paired-comparison table contains no negative zero,mandatory,True,0,0
+Figure_A0_A4_compliance_PNG_EXISTS,Figure_A0_A4_compliance PNG exists,mandatory,True,True,True
+Figure_A0_A4_compliance_PDF_EXISTS,Figure_A0_A4_compliance PDF exists,mandatory,True,True,True
+Figure_A0_A4_compliance_DIMENSIONS,Figure_A0_A4_compliance has nonzero pixel dimensions,mandatory,True,14044 × 6597,Nonzero width and height
+Figure_A0_A4_compliance_DPI,Figure_A0_A4_compliance is stored at approximately 1200 DPI,mandatory,True,"(1199.9976, 1199.9976)",At least 1190 DPI
+Figure_A0_A4_report_length_PNG_EXISTS,Figure_A0_A4_report_length PNG exists,mandatory,True,True,True
+Figure_A0_A4_report_length_PDF_EXISTS,Figure_A0_A4_report_length PDF exists,mandatory,True,True,True
+Figure_A0_A4_report_length_DIMENSIONS,Figure_A0_A4_report_length has nonzero pixel dimensions,mandatory,True,10623 × 6415,Nonzero width and height
+Figure_A0_A4_report_length_DPI,Figure_A0_A4_report_length is stored at approximately 1200 DPI,mandatory,True,"(1199.9976, 1199.9976)",At least 1190 DPI
+Figure_Qwen_generation_time_PNG_EXISTS,Figure_Qwen_generation_time PNG exists,mandatory,True,True,True
+Figure_Qwen_generation_time_PDF_EXISTS,Figure_Qwen_generation_time PDF exists,mandatory,True,True,True
+Figure_Qwen_generation_time_DIMENSIONS,Figure_Qwen_generation_time has nonzero pixel dimensions,mandatory,True,9422 × 6415,Nonzero width and height
+Figure_Qwen_generation_time_DPI,Figure_Qwen_generation_time is stored at approximately 1200 DPI,mandatory,True,"(1199.9976, 1199.9976)",At least 1190 DPI
+Figure_per_class_A3_A4_evidence_PNG_EXISTS,Figure_per_class_A3_A4_evidence PNG exists,mandatory,True,True,True
+Figure_per_class_A3_A4_evidence_PDF_EXISTS,Figure_per_class_A3_A4_evidence PDF exists,mandatory,True,True,True
+Figure_per_class_A3_A4_evidence_DIMENSIONS,Figure_per_class_A3_A4_evidence has nonzero pixel dimensions,mandatory,True,14223 × 7017,Nonzero width and height
+Figure_per_class_A3_A4_evidence_DPI,Figure_per_class_A3_A4_evidence is stored at approximately 1200 DPI,mandatory,True,"(1199.9976, 1199.9976)",At least 1190 DPI
+RESULTS_TEXT_EXISTS,Text file exists: UNSW_NB15_A0_A4_results_paragraph.txt,mandatory,True,True,True
+FIGURE_CAPTIONS_EXIST,Text file exists: figure_captions.txt,mandatory,True,True,True
+NOTEBOOK_DISCOVERY,At least one project notebook was found,recommended,True,1,At least one
+ZIP_INTEGRITY,Final ZIP archive passes integrity test,mandatory,True,None,None
+ZIP_NONEMPTY,Final ZIP contains packaged files,mandatory,True,51,Greater than zero

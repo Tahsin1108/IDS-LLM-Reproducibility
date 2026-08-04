@@ -1,0 +1,42 @@
+UNSW-NB15 report-generation ablation
+
+The report-generation evaluation used a class-balanced subset of
+300 UNSW-NB15 events, comprising 30 events from each of the ten
+classes and equal numbers of correctly classified and misclassified
+events. Five configurations were evaluated on the same events:
+a deterministic template (A0), unconstrained Qwen generation (A1),
+constrained generation without SHAP evidence (A2), constrained
+generation with full local evidence (A3), and an evidence-contract-
+bound deterministic verifier and renderer applied after A3 (A4).
+
+The configurations differed significantly in strict structural
+compliance, prediction-contract compliance, evidence-contract
+compliance, automatic unsupported-claim indicators, and token-limit
+occurrence according to Cochran's Q tests. Misclassification-reporting
+honesty did not differ significantly across configurations.
+
+Relative to raw full-evidence generation, A4 increased strict
+structural compliance from 0.0% to
+100.0% (Holm-adjusted p=9.82e-90),
+prediction-contract compliance from 42.0% to
+100.0% (p=5.85e-52), and
+evidence-contract compliance from 19.3% to
+100.0% (p=1.98e-72). Token-limit
+occurrence decreased from 7.0% to
+0.0% (p=9.54e-06).
+
+The conservative automatic unsupported-claim indicator decreased
+from 2.0% for A3 to
+0.0% for A4, although this difference was not
+significant after Holm correction (p=0.094).
+This automatic indicator should be interpreted as a rule-based
+screening measure rather than a replacement for expert semantic
+assessment.
+
+A4 reports were also shorter than raw A3 reports
+(125.65 versus 158.09 mean words;
+Holm-adjusted Wilcoxon p=5.74e-47). These findings
+show that evidence inclusion in the prompt alone did not guarantee
+complete evidence reproduction. Contract-bound verification and
+rendering were required to achieve complete structural and evidence
+fidelity without exposing evaluation-only ground truth to the LLM.
