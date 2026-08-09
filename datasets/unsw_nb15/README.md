@@ -112,3 +112,20 @@ from an authorized source and comply with its distribution terms.
 
 The Qwen model weights are also excluded. The recorded model
 identifier can be used to obtain the model separately.
+
+## Diagnostic figures
+
+Additional detector- and policy-level visualizations are available
+under `diagnostic_figures/`. These include:
+
+- official-protocol Random Forest normalized confusion matrix;
+- conservative-protocol Random Forest normalized confusion matrix;
+- official and conservative confidence distributions;
+- reliability/calibration comparison;
+- risk-coverage comparison;
+- reporting-union SHAP feature importance;
+- policy-zone distribution; and
+- policy risk-score distribution.
+
+These figures supplement the manuscript-oriented A0-A4 figures
+stored under `manuscript/figures/`.
